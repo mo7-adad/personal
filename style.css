@@ -1,0 +1,89 @@
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.text-blue {
+    color: #1e30f3;
+}
+
+.text-pink {
+    color: #e21e80;
+}
+
+.text-gradient {
+    background: linear-gradient(135deg, #1e30f3, #e21e80);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.gradient-bg {
+    background: linear-gradient(135deg, #1e30f3, #e21e80);
+}
+
+.btn-blue {
+    background-color: #1e30f3;
+    border-color: #1e30f3;
+    color: white;
+}
+
+.btn-blue:hover {
+    background-color: #1424c4;
+    border-color: #1424c4;
+    color: white;
+}
+
+.nav-link:hover {
+    color: #1e30f3;
+}
+
+.profile {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 6rem;
+}
+
+.profile img {
+    width: 18rem;
+    position: absolute;
+    bottom: 0;
+    left: 1rem;
+    border-radius: 0 0 50% 50%;
+}
+
+.icon-box {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+    color: white;
+    font-size: 1.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer a {
+    color: #1e30f3;
+    text-decoration: none;
+}
+
+@media (max-width: 576px) {
+    .profile {
+        width: 16rem;
+        height: 16rem;
+    }
+
+    .profile img {
+        width: 14.5rem;
+        left: 0.75rem;
+    }
+}
